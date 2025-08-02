@@ -1,0 +1,105 @@
+<?php
+// index.php
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free online image compression tool. Compress images quickly and efficiently with drag & drop and progress tracking." />
+  <meta name="keywords" content="image compression, reduce image size, online image optimizer, photo compressor" />
+  <meta name="author" content="YourName" />
+  <title>Online Image Compressor - Compress Images Free</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      color: #333;
+    }
+    header, footer {
+      background: #1e1e2f;
+      color: white;
+      text-align: center;
+      padding: 2em 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    .intro {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .cta {
+      display: block;
+      width: max-content;
+      margin: 1.5rem auto;
+      background: #007bff;
+      color: white;
+      padding: 0.8rem 2rem;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .cta:hover {
+      background: #0056b3;
+    }
+    .ad-space {
+      margin: 2rem 0;
+      text-align: center;
+      background: #f0f0f0;
+      border: 2px dashed #ccc;
+      padding: 1.5rem;
+      border-radius: 12px;
+    }
+    @media(max-width: 600px) {
+      .container {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-compress"></i> Welcome to the Image Compressor</h1>
+    <p>Compress Images Online Quickly & Efficiently</p>
+  </header>
+
+  <div class="container">
+    <div class="intro">
+      <p>Looking to reduce image size without losing much quality? Use our drag & drop image compressor tool that supports JPG, PNG, and more. Ideal for web use, email, and social sharing.</p>
+    </div>
+
+    <div class="ad-space">
+      <!-- Google AdSense Ad Unit -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-app-pub-1194690711490145~1952538978"
+           data-ad-slot="HOMEAD123"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <a href="compressor.php" class="cta">Go to Compressor</a>
+  </div>
+
+  <footer>
+    <p>&copy; <?= date('Y'); ?>HARSH TECHNO. All rights reserved.</p>
+  </footer>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</body>
+</html>
